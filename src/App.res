@@ -216,7 +216,7 @@ let make = () => {
   }
 
   <div className="block">
-    <h1 className="title"> {React.string("Modern MoMoTaNi")} </h1>
+    <h1 className="title"> {React.string("MoMoTaNi Checker 2023")} </h1>
     <input
       type_="text"
       className={"input is-rounded is-large " ++ if arr->Js.Array2.length == 0 {
